@@ -16,10 +16,10 @@ body {
 	-webkit-user-select: none;
 	user-select: none;
 }
-@font-face{
+/*@font-face{
 	font-family: SimSun1;
 	src: url("../fonts/simsun.ttc");
-}
+}*/
 #splashScr {
 	position: fixed;
 	width: 100%;
@@ -34,7 +34,7 @@ body {
 	width: 100%;
 	text-align: center;
 	font-size: 15px;
-	font-family: "宋体","SimSun","STZhongsong",Helvetica,"SimSun1";
+	font-family: "宋体","SimSun","STZhongsong","Source Han Serif CN","Microsoft Yahei Light";
 }
 .mainTitle1,.mainTitle2 {
 	position: absolute;
@@ -52,7 +52,7 @@ body {
 	top: 85px;
 	left: 10px;
 	font-size: 40px;
-	font-family: "宋体","SimSun","STZhongsong","SimSun1";
+	font-family: "宋体","SimSun","STZhongsong","Source Han Serif CN","Microsoft Yahei Light";
 	letter-spacing: 20px;
 }
 .ulineBlock {
