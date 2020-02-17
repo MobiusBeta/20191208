@@ -34,7 +34,7 @@ body {
 	width: 100%;
 	text-align: center;
 	font-size: 15px;
-	font-family: "宋体","SimSun","STZhongsong","SimSun1";
+	font-family: "宋体","SimSun","STZhongsong",Helvetica,"SimSun1";
 }
 .mainTitle1,.mainTitle2 {
 	position: absolute;
