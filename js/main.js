@@ -1,6 +1,6 @@
 console.log("\n纪念所有在这些苦难中逝去的生命");
 /* JavaScript written by MaoRX.cn */
-var version="20w08b";
+var version="20w08b1";
 var splashScreen="1";
 
 if(splashScreen==="1"){
