@@ -54,7 +54,7 @@ body {
 }
 .mainTitle2 {
 	top: 85px;
-	left: 10px;
+	text-indent: 10px;
 	font-size: 40px;
 	font-family: "宋体","SimSun","STZhongsong","Source Han Serif CN",serif,"Microsoft Yahei Light";
 	letter-spacing: 20px;

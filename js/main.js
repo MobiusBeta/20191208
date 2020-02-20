@@ -1,7 +1,7 @@
 console.log("\n纪念所有在这些苦难中逝去的生命");
 /* JavaScript written by R.X. Mao */
-var version="20w08b3";
-var splashScreen="1";
+var version="20w08b4";
+var splashScreen="";
 
 if(splashScreen==="1"){
 	setTimeout(function(){
