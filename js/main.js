@@ -1,6 +1,6 @@
 console.log("\n纪念所有在这些苦难中逝去的生命");
 /* JavaScript written by R.X. Mao */
-var version="20w08c2";
+var version="20w10a";
 var splashScreen="1";
 
 window.oncontextmenu=function(){return false;};
