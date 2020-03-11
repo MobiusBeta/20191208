@@ -1,0 +1,38 @@
+html {
+	height: 100%;
+}
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+	margin: 0;
+	font-family: "Microsoft Yahei Light","Pingfang SC","Microsoft Yahei",Helvetica,sans-serif,"等线";
+	background-color: #25292B;
+	cursor: default;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-select: none;
+	user-select: none;
+}
+.contentBox {
+	position: absolute;
+	top: calc(50% - 50px);
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.mainTip {
+	font-size: 35px;
+	color: rgba(255,255,255,0.8);
+}
+.tip {
+	font-size: small;
+	color: rgba(255,255,255,0.6);
+}
+
+@media screen and (max-width:600px){
+	.mainTip {
+		font-size: 25px;
+	}
+	.tip {
+		line-height: 5px;
+	}
+}
