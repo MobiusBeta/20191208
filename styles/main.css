@@ -24,22 +24,42 @@ body {
 	margin: 0;
 	font-family: "Microsoft Yahei Light","Pingfang SC","Microsoft Yahei",Helvetica,sans-serif,"等线";
 	background-color: #25292B;
+	color: white;
 	cursor: default;
 	-webkit-tap-highlight-color: transparent;
 	-webkit-user-select: none;
 	user-select: none;
 }
-/*@font-face{
-	font-family: SimSun1;
-	src: url("../fonts/simsun.ttc");
-}*/
+@font-face {
+  font-family: 'iconfont';  /* project id 1780603 */
+  src: url('https://at.alicdn.com/t/font_1780603_umiove5uri.eot');
+  src: url('https://at.alicdn.com/t/font_1780603_umiove5uri.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1780603_umiove5uri.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1780603_umiove5uri.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1780603_umiove5uri.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1780603_umiove5uri.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: "iconfont" !important;
+	font-size: 20px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0;
+	-moz-osx-font-smoothing: grayscale;
+}
+.song {
+	font-family: "宋体","SimSun","STZhongsong","Source Han Serif CN",serif,"Microsoft Yahei Light" !important;
+}
+.bold {
+	font-weight: bold;
+	font-family: "Microsoft Yahei","Pingfang SC",Helvetica,sans-serif,"等线";
+}
 #splashScr {
 	position: fixed;
 	left: 0;
 	top: 0;
 	width: 100%;
 	height: 100%;
-	color: white;
 	background-color: #25292B;
 	transition: all 0.5s;
 	opacity: 1;
@@ -51,137 +71,195 @@ body {
 	width: 100%;
 	text-align: center;
 	font-size: 15px;
-	font-family: "宋体","SimSun","STZhongsong","Source Han Serif CN",serif,"Microsoft Yahei Light";
 }
-.mainTitle1,.mainTitle2 {
+#headBox {
 	position: absolute;
+	top: 0;
 	left: 0;
 	width: 100%;
-	text-align: center;
-	color: white;
+	height: 100%;
+	background-color: rgba(255,255,255,.03);
 }
-.mainTitle1 {
-	top: 50px;
-	font-size: 14px;
-	letter-spacing: 3px;
-}
-.mainTitle2 {
-	top: 85px;
-	text-indent: 10px;
-	font-size: 40px;
-	font-family: "宋体","SimSun","STZhongsong","Source Han Serif CN",serif,"Microsoft Yahei Light";
-	letter-spacing: 20px;
-}
-.ulineBlock {
+.headTitle {
 	position: absolute;
-	z-index: -1;
-	top: 10px;
-	left: calc(50% - 116.5px);
-	width: 230px;
-	height: 10px;
-	background-color: #534F54;
-}
-.intro {
-	position: relative;
-	top: 200px;
-	left: 0;
-	width: 100%;
-	text-align: center;
-}
-p {
-	color: rgba(255,255,255,0.8);
-	font-size: small;
-}
-p.bold {
-	font-family: "Microsoft Yahei","Pingfang SC";
-	font-weight: bold;
-	font-size: 15px;
-}
-.stressBox {
-	position: relative;
-	left: calc(50% - 200px);
-	width: 400px;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	background-color: rgba(255,255,255,0.1);
-}
-.contact {
-	position: relative;
-	top: 250px;
-	left: 0;
-	width: 100%;
-	text-align: center;
-}
-.btnMain {
-	position: relative;
-	padding: 10px;
-	padding-left: 50px;
-	padding-right: 50px;
-	border-radius: 3px;
-	font-size: small;
-	color: white;
-	background-color: #438FE6;
-	transition: all 0.25s;
-	cursor: pointer;
-}
-.btnMain:hover {
-	background-color: #4A9EFF;
-}
-.btnMain:active {
-	background-color: #3B7FCC;
-}
-#mailInfo {
+	top: calc(50% - 80px);
+	left: calc(50% - 260px);
+	width: 520px;
 	text-align: left;
-	-webkit-tap-highlight-color: default;
-	-webkit-user-select: text;
-	user-select: text;
-	cursor: text;
-	padding-left: 65px;
-	width: 335px;
+	white-space: nowrap;
 }
+.headTitle1 {
+	color: rgba(255,255,255,.5);
+}
+.headTitle2 {
+	line-height: 80px;
+	letter-spacing: 1px;
+}
+#totalDeath {
+	font-size: 50px;
+}
+#btnScrollDown {
+	position: absolute;
+	bottom: 30px;
+	left: calc(50% - 50px);
+	width: 100px;
+	color: rgba(255,255,255,.5);
+	text-align: center;
+	font-size: small;
+	cursor: pointer;
+	transition: all .25s;
+}
+#btnScrollDown i {
+	font-size: small;
+	padding-right: 5px;
+}
+#btnScrollDown:hover {
+	color: white;
+}
+#btnScrollDown:active {
+	color: rgba(255,255,255,.3);
+}
+#mainBox {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	background-color: #25292B;
+}
+.listTitle {
+	position: relative;
+	margin-top: 100px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+#listBox {
+	position: relative;
+	margin-top: 100px;
+	left: calc(50% - 600px);
+	width: 1200px;
+	font-size: 0;
+}
+.listItem {
+	display: inline-block;
+	position: relative;
+	width: 250px;
+	margin: 5px;
+	padding: 12px 20px;
+	background-color: rgba(255,255,255,.05);
+	border-radius: 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	transition: all .25s;
+}
+.listItem:hover {
+	background-color: rgba(255,255,255,.1);
+}
+.listName {
+	font-size: 16px;
+}
+.listInnerItem {
+	display: inline-block;
+	position: relative;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+.listInnerItemTitle {
+	color: rgba(255,255,255,.5);
+	font-size: 11px;
+}
+.listInnerItemContent {
+	font-size: small;
+}
+#listEnd {
+	position: relative;
+	left: 0;
+	margin-top: 50vh;
+	width: 100%;
+	text-align: center;
+}
+#btnBacktoTop {
+	position: absolute;
+	bottom: 80px;
+	left: calc(50% - 15px);
+	color: rgba(255,255,255,.5);
+	cursor: pointer;
+	transition: all .25s;
+}
+#btnBacktoTop i {
+	font-size: 30px;
+}
+#btnBacktoTop:hover {
+	color: rgba(255,255,255,.8);
+}
+#btnBacktoTop:active {
+	color: rgba(255,255,255,.3);
+}
+
 footer {
 	position: relative;
-	top: 300px;
+	margin-top: 50vh;
 	left: 0;
 	width: 100%;
 	height: 50px;
-	color: rgba(255,255,255,0.5);
+	color: rgba(255,255,255,.5);
 	text-align: center;
 	font-size: 12px;
 }
 .links {
 	text-decoration: none;
-	color: rgba(255,255,255,0.5);
+	color: rgba(255,255,255,.5);
 	cursor: pointer;
 	transition: all 0.25s;
 }
 .links.blue {
 	color: #4A9EFF;
 }
-a.links:link,a.links:visted {color: rgba(255,255,255,0.5);}
-a.links:hover {color: rgba(255,255,255,1.0);}
-a.links:active {color: rgba(255,255,255,0.5);}
+a.links:link,a.links:visted {color: rgba(255,255,255,.5);}
+a.links:hover {color: white;}
+a.links:active {color: rgba(255,255,255,.5);}
 
-
-@media screen and (max-width:600px){
-	.intro,.contact {
-		left: 5%;
-		width: 90%;
-		text-align: left;
+@media screen and (max-width: 1370px) {
+	#listBox {
+		left: calc(50% - 450px);
+		width: 900px;
 	}
-	#toRelatives {
-		padding-left: 65px;
-		width: 335px;
+}
+
+@media screen and (max-width: 1050px) {
+	#listBox {
+		left: calc(50% - 300px);
+		width: 600px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#listBox {
+		left: calc(50% - 150px);
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.headTitle {
+		left: 10%;
+		width: 80%;
+		white-space: unset;
+	}
+	.headTitle1, .headTitle2 {
+		font-size: small;
+	}
+	#headTitle2Text {
+		display: block;
+		line-height: initial;
+		margin-top: -15px;
+	}
+	.listTitle, #listBox {
+		margin-top: 80px;
 	}
 	footer {
 		font-size: 11px;
 	}
-}
-
-@media screen and (min-width:600px) and (max-width:900px){
-	
-}
-
-@media screen and (max-width:1370px){
-	
 }
