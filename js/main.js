@@ -1,6 +1,6 @@
 console.log("\n纪念所有在这些苦难中逝去的生命");
 /* JavaScript written by R.X. Mao */
-const version = "20w17a";
+const version = "20w17a1";
 const splashScreen = "1";
 
 window.oncontextmenu = function() {return false;};
@@ -18,8 +18,7 @@ if (splashScreen === "1") {
 	splashScr.style.display = "none";
 }
 function loadList() {
-	// let url = "https://maorx.cn/20191208/medical_death_list.json";
-	let url = "https://raw.githubusercontent.com/MobiusBeta/20191208/master/lists/medical_death_list.json";
+	let url = "https://20191208.cn/lists/medical_death_list.json";
 	
 	fetch(url).then(response => {
 		if (response.ok) {
