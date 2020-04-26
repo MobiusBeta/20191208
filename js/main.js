@@ -1,6 +1,6 @@
-console.log("\n纪念所有在这些苦难中逝去的生命");
-/* JavaScript written by R.X. Mao */
-const version = "20w17a1";
+console.log("\n纪念所有在这些苦难中逝去的生命\n\n");
+/* JavaScript written by Ruoxin Mao */
+const version = "20w17b";
 const splashScreen = "1";
 
 window.oncontextmenu = function() {return false;};

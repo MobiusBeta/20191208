@@ -1,4 +1,4 @@
-﻿/* Style written by R.X. Mao */
+﻿/* Style written by Ruoxin Mao */
 * {
 	scrollbar-width: thin;
 }
@@ -235,14 +235,14 @@ a.links:active {color: rgba(255,255,255,.5);}
 	}
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 650px) {
 	#listBox {
 		left: calc(50% - 150px);
 		width: 300px;
 	}
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
 	.headTitle {
 		left: 10%;
 		width: 80%;
