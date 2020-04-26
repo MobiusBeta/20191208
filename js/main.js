@@ -1,11 +1,11 @@
-console.log("\n纪念所有在这些苦难中逝去的生命\n\n");
 /* JavaScript written by Ruoxin Mao */
-const version = "20w17b";
+const version = "20w17c";
+console.log("\n纪念所有在这些苦难中逝去的生命\n\n© 2020 毛若昕\nversion " + version + "\n\n");
 const splashScreen = "1";
 
 window.oncontextmenu = function() {return false;};
 window.onkeydown = function(e) {if ((e.ctrlKey || e.metaKey) && e.keyCode == 83) return false;};
-versionInfo.innerText = version;
+// versionInfo.innerText = version;
 loadList();
 if (splashScreen === "1") {
 	setTimeout (function() {
@@ -18,8 +18,7 @@ if (splashScreen === "1") {
 	splashScr.style.display = "none";
 }
 function loadList() {
-	let url = "https://20191208.cn/lists/medical_death_list.json";
-	
+	const url = "https://20191208.cn/lists/medical_death_list.json";
 	fetch(url).then(response => {
 		if (response.ok) {
 			return response.json();

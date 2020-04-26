@@ -83,8 +83,8 @@ body {
 .headTitle {
 	position: absolute;
 	top: calc(50% - 80px);
-	left: calc(50% - 260px);
-	width: 520px;
+	left: calc(50% - 240px);
+	width: 480px;
 	text-align: left;
 	white-space: nowrap;
 }
