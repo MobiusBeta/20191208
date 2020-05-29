@@ -1,5 +1,5 @@
 /* JavaScript written by Ruoxin Mao */
-const version = "20w17e";
+const version = "20w22a";
 console.log("\n纪念所有在这些苦难中逝去的生命\n\n© 2020 毛若昕\nversion " + version + "\n\n");
 const splashScreen = "1";
 

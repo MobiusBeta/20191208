@@ -4167,7 +4167,7 @@
     "political_identity": "党员",
     "location": "广东广州",
     "cause_of_death": "？",
-    "date": "·"
+    "date": "2020年·"
   },
   {
     "name": "何少雄",
@@ -4888,5 +4888,405 @@
     "location": "陕西延安",
     "cause_of_death": "过劳病逝",
     "date": "2020年4月21日"
+  },
+  {
+    "name": "武强",
+    "gender": "男",
+    "age": "45",
+    "occupation": "警察",
+    "political_identity": "？",
+    "location": "内蒙古",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年4月23日"
+  },
+  {
+    "name": "赵越",
+    "gender": "男",
+    "age": "34",
+    "occupation": "警察",
+    "political_identity": "？",
+    "location": "黑龙江绥化",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年4月10日"
+  },
+  {
+    "name": "赵峰",
+    "gender": "男",
+    "age": "53",
+    "occupation": "警察",
+    "political_identity": "党员",
+    "location": "内蒙古",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年4月24日"
+  },
+  {
+    "name": "木塔力甫·奴热木别克",
+    "gender": "男",
+    "age": "41",
+    "occupation": "警察",
+    "political_identity": "党员",
+    "location": "新疆托里",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年4月24日"
+  },
+  {
+    "name": "马永亮",
+    "gender": "男",
+    "age": "63",
+    "occupation": "公务员",
+    "political_identity": "党员",
+    "location": "河南洛阳",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年3月25日"
+  },
+  {
+    "name": "常金海",
+    "gender": "男",
+    "age": "？",
+    "occupation": "公务员",
+    "political_identity": "党员",
+    "location": "河南南阳",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年4月4日"
+  },
+  {
+    "name": "张治国",
+    "gender": "男",
+    "age": "43",
+    "occupation": "警察",
+    "political_identity": "党员",
+    "location": "天津",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年4月16日"
+  },
+  {
+    "name": "曹孟",
+    "gender": "男",
+    "age": "44",
+    "occupation": "公务员",
+    "political_identity": "党员",
+    "location": "河南南阳",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年3月2日"
+  },
+  {
+    "name": "黄信忠",
+    "gender": "男",
+    "age": "45",
+    "occupation": "村干部",
+    "political_identity": "党员",
+    "location": "江西遂川",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年3月5日"
+  },
+  {
+    "name": "兰军",
+    "gender": "男",
+    "age": "53",
+    "occupation": "警察",
+    "political_identity": "党员",
+    "location": "河南平顶山",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年4月27日"
+  },
+  {
+    "name": "申文东",
+    "gender": "男",
+    "age": "44",
+    "occupation": "警察",
+    "political_identity": "?",
+    "location": "河南南阳",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年4月21日"
+  },
+  {
+    "name": "阴帅兵",
+    "gender": "男",
+    "age": "38",
+    "occupation": "警察",
+    "political_identity": "党员",
+    "location": "河南安阳",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年3月19日"
+  },
+  {
+    "name": "焦玉成",
+    "gender": "男",
+    "age": "64",
+    "occupation": "村干部",
+    "political_identity": "党员",
+    "location": "江苏南京",
+    "cause_of_death": "车祸",
+    "date": "2020年3月31日"
+  },
+  {
+    "name": "颜天辉",
+    "gender": "男",
+    "age": "？",
+    "occupation": "村干部",
+    "political_identity": "党员",
+    "location": "广东梅州",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年3月12日"
+  },
+  {
+    "name": "朱宏彦",
+    "gender": "男",
+    "age": "48",
+    "occupation": "警察",
+    "political_identity": "党员",
+    "location": "云南玉溪",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年5月2日"
+  },
+  {
+    "name": "余姜兰",
+    "gender": "女",
+    "age": "46",
+    "occupation": "志愿者",
+    "political_identity": "群众",
+    "location": "安徽宿松",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年3月20日"
+  },
+  {
+    "name": "魏明华",
+    "gender": "男",
+    "age": "61",
+    "occupation": "公务员",
+    "political_identity": "党员",
+    "location": "山东济宁",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年4月4日"
+  },
+  {
+    "name": "徐祥波",
+    "gender": "男",
+    "age": "47",
+    "occupation": "村干部",
+    "political_identity": "党员",
+    "location": "湖北孝感",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年4月22日"
+  },
+  {
+    "name": "王文礼",
+    "gender": "男",
+    "age": "57",
+    "occupation": "警察",
+    "political_identity": "?",
+    "location": "内蒙古",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年5月4日"
+  },
+  {
+    "name": "梁振兵",
+    "gender": "男",
+    "age": "39",
+    "occupation": "警察",
+    "political_identity": "党员",
+    "location": "新疆沙雅",
+    "cause_of_death": "车祸",
+    "date": "2020年5月6日"
+  },
+  {
+    "name": "罗永利",
+    "gender": "男",
+    "age": "55",
+    "occupation": "警察",
+    "political_identity": "?",
+    "location": "广西柳州",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年5月3日"
+  },
+  {
+    "name": "周业军",
+    "gender": "男",
+    "age": "53",
+    "occupation": "村干部",
+    "political_identity": "党员",
+    "location": "江苏灌南",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年4月8日"
+  },
+  {
+    "name": "郭永明",
+    "gender": "男",
+    "age": "30",
+    "occupation": "保安",
+    "political_identity": "党员",
+    "location": "山西神池",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年5月5日"
+  },
+  {
+    "name": "王斌滔",
+    "gender": "男",
+    "age": "41",
+    "occupation": "警察",
+    "political_identity": "群众",
+    "location": "北京",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年5月8日"
+  },
+  {
+    "name": "依吞旺",
+    "gender": "男",
+    "age": "33",
+    "occupation": "民兵",
+    "political_identity": "群众",
+    "location": "云南瑞丽",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年5月7日"
+  },
+  {
+    "name": "骆伟荣",
+    "gender": "男",
+    "age": "33",
+    "occupation": "警察",
+    "political_identity": "党员",
+    "location": "广西惠州",
+    "cause_of_death": "突发疾病",
+    "date": "2020年5月5日"
+  },
+  {
+    "name": "李士国",
+    "gender": "男",
+    "age": "55",
+    "occupation": "警察",
+    "political_identity": "党员",
+    "location": "黑龙江宁安",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年5月11日"
+  },
+  {
+    "name": "王旭国",
+    "gender": "男",
+    "age": "56",
+    "occupation": "警察",
+    "political_identity": "？",
+    "location": "天津",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年5月10日"
+  },
+  {
+    "name": "赵宏伟",
+    "gender": "男",
+    "age": "？",
+    "occupation": "村干部",
+    "political_identity": "党员",
+    "location": "河北唐山",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年5月3日"
+  },
+  {
+    "name": "李新成",
+    "gender": "男",
+    "age": "54",
+    "occupation": "警察",
+    "political_identity": "？",
+    "location": "广西宜州",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年5月15日"
+  },
+  {
+    "name": "杜伟",
+    "gender": "男",
+    "age": "57",
+    "occupation": "公务员",
+    "political_identity": "？",
+    "location": "山东诸城",
+    "cause_of_death": "？",
+    "date": "2020年5月17日"
+  },
+  {
+    "name": "徐宝贵",
+    "gender": "男",
+    "age": "56",
+    "occupation": "警察",
+    "political_identity": "党员",
+    "location": "辽宁大连",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年5月13日"
+  },
+  {
+    "name": "邓伟",
+    "gender": "男",
+    "age": "47",
+    "occupation": "公务员",
+    "political_identity": "党员",
+    "location": "湖南长沙",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年3月11日"
+  },
+  {
+    "name": "夏志军",
+    "gender": "男",
+    "age": "56",
+    "occupation": "警察",
+    "political_identity": "党员",
+    "location": "河北张家口",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年5月14日"
+  },
+  {
+    "name": "黄金华",
+    "gender": "男",
+    "age": "44",
+    "occupation": "医生",
+    "political_identity": "党员",
+    "location": "天津",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年5月15日"
+  },
+  {
+    "name": "雷明森",
+    "gender": "男",
+    "age": "50",
+    "occupation": "警察",
+    "political_identity": "党员",
+    "location": "河南唐河",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年5月14日"
+  },
+  {
+    "name": "朱宏彦",
+    "gender": "男",
+    "age": "48",
+    "occupation": "警察",
+    "political_identity": "党员",
+    "location": "云南玉溪",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年5月2日"
+  },
+  {
+    "name": "袁进福",
+    "gender": "男",
+    "age": "50",
+    "occupation": "警察",
+    "political_identity": "党员",
+    "location": "广东河源",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年5月12日"
+  },
+  {
+    "name": "梁小霞",
+    "gender": "女",
+    "age": "？",
+    "occupation": "护士",
+    "political_identity": "？",
+    "location": "广西南宁",
+    "cause_of_death": "突发疾病",
+    "date": "2020年5月26日"
+  },
+  {
+    "name": "张杰",
+    "gender": "男",
+    "age": "58",
+    "occupation": "警察",
+    "political_identity": "？",
+    "location": "河南南阳",
+    "cause_of_death": "过劳病逝",
+    "date": "2020年5月23日"
   }
 ]
