@@ -1,6 +1,6 @@
 /* JavaScript written by Ruoxin Mao */
-const version = "20w22a";
-console.log("\n纪念所有在这些苦难中逝去的生命\n\n© 2020 毛若昕\nversion " + version + "\n\n");
+const version = "21w08a";
+console.log("\n纪念所有在这些苦难中逝去的生命\n\n© 2021 毛若昕\nversion " + version + "\n\n");
 const splashScreen = "1";
 
 window.oncontextmenu = function() {return false;};
@@ -21,7 +21,7 @@ if (matchMedia("(prefers-color-scheme:dark)").matches) {
 	document.querySelector('link[rel="shortcut icon"]').href = "favicon-dark-theme.ico";
 } 
 function loadList() {
-	const url = "https://20191208.cn/lists/medical_death_list.json";
+	const url = "https://ncov19.cn/lists/medical_death_list.json";
 	fetch(url).then(response => {
 		if (response.ok) {
 			return response.json();
