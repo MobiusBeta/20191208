@@ -21,7 +21,7 @@ if (matchMedia("(prefers-color-scheme:dark)").matches) {
 	document.querySelector('link[rel="shortcut icon"]').href = "favicon-dark-theme.ico";
 } 
 function loadList() {
-	const url = "https://covid19.cn/lists/medical_death_list.json";
+	const url = "https://ncov19.cn/lists/medical_death_list.json";
 	fetch(url).then(response => {
 		if (response.ok) {
 			return response.json();
